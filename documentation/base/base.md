@@ -284,6 +284,6 @@ The `CLI` class is a plug-in interface for commands used in a command line inter
 <a id="worker"></a>
 ## class Worker
 
-See the [Worker documentation](./worker.md) for more information about the `Worker` class.
+See the [Worker documentation](worker.md) for more information about the `Worker` class.
 
 
