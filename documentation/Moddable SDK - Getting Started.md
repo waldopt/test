@@ -60,20 +60,20 @@ More detailed getting started guides are available for the following devices:
 | win | Windows target
 | lin | Linux target
 | esp | ESP8266 device target
-| esp/moddable_zero | [Moddable Zero](../documentation/devices/moddable-zero.md) device target
-| esp/moddable_one | [Moddable One](../documentation/devices/moddable-one.md) device target
-| esp32/moddable_two | [Moddable Two](../documentation/devices/moddable-two.md) device target
-| esp/moddable_three | [Moddable Three](../documentation/devices/moddable-three.md) device target
-| esp/adafruit_oled | [Adafruit OLED display + ESP8266](../documentation/displays/wiring-guide-adafruit-OLED.md)
-| esp/adafruit_st7735 | [Adafruit 1.8" ST7735 display + ESP8266](../documentation/displays/wiring-guide-adafruit-1.8-st7735.md)
-| esp/crystalfontz\_monochrome\_epaper | [Crystalfontz monochrome ePaper display + ESP8266](../documentation/displays/wiring-guide-crystalfontz-eink.md)
-| esp/sharp_memory | [2.7" Sharp Memory display + ESP8266](../documentation/displays/wiring-guide-sharp-memory-2.7-spi.md)
-| esp/sharp\_memory\_square | [1.3" Sharp Memory Display + ESP8266](../documentation/displays/wiring-guide-sharp-memory-1.3-spi.md)
-| esp/sparkfun_teensyview | [SparkFun TeensyView + ESP8266](../documentation/displays/wiring-guide-sparkFun-teensyview-spi.md)
-| esp/switch\_science\_reflective\_lcd | [Switch Science reflective LCD display + ESP8266](../documentation/displays/wiring-guide-switch-science-LCD.md)
-| esp/buydisplay_ctp | [BuyDisplay 2.8" CTP display + ESP8266](../documentation/displays/wiring-guide-generic-2.8-CPT-spi.md)
+| esp/moddable_zero | [Moddable Zero](devices/moddable-zero.md) device target
+| esp/moddable_one | [Moddable One](devices/moddable-one.md) device target
+| esp32/moddable_two | [Moddable Two](devices/moddable-two.md) device target
+| esp/moddable_three | [Moddable Three](devices/moddable-three.md) device target
+| esp/adafruit_oled | [Adafruit OLED display + ESP8266](displays/wiring-guide-adafruit-OLED.md)
+| esp/adafruit_st7735 | [Adafruit 1.8" ST7735 display + ESP8266](displays/wiring-guide-adafruit-1.8-st7735.md)
+| esp/crystalfontz\_monochrome\_epaper | [Crystalfontz monochrome ePaper display + ESP8266](displays/wiring-guide-crystalfontz-eink.md)
+| esp/sharp_memory | [2.7" Sharp Memory display + ESP8266](displays/wiring-guide-sharp-memory-2.7-spi.md)
+| esp/sharp\_memory\_square | [1.3" Sharp Memory Display + ESP8266](displays/wiring-guide-sharp-memory-1.3-spi.md)
+| esp/sparkfun_teensyview | [SparkFun TeensyView + ESP8266](displays/wiring-guide-sparkFun-teensyview-spi.md)
+| esp/switch\_science\_reflective\_lcd | [Switch Science reflective LCD display + ESP8266](displays/wiring-guide-switch-science-LCD.md)
+| esp/buydisplay_ctp | [BuyDisplay 2.8" CTP display + ESP8266](displays/wiring-guide-generic-2.8-CPT-spi.md)
 | esp32 | ESP32 device target
-| esp32/moddable_zero | [ESP32 with generic SPI display](../documentation/displays/wiring-guide-generic-2.4-spi-esp32.md)
+| esp32/moddable_zero | [ESP32 with generic SPI display](displays/wiring-guide-generic-2.4-spi-esp32.md)
 | esp32/lilygo_t5s | [LilyGO TTGO T5S](https://github.com/LilyGO/TTGO-T5S-Epaper)
 | esp32/lilygo_taudio | [LilyGO TTGO TAudio](https://github.com/LilyGO/TTGO-TAudio)
 | esp32/m5stack | [M5Stack](https://www.aliexpress.com/store/product/M5Stack-Official-Stock-Offer-ESP32-Basic-Core-Development-Kit-Extensible-Micro-Control-Wifi-BLE-IoT-Prototype/3226069_32837164440.html?spm=2114.12010615.8148356.2.11c127aeBNzJBb)
