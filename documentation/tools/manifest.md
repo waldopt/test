@@ -125,7 +125,7 @@ The `creation` object defines the creation parameters of the XS machine that wil
 
 The `defines` object creates a set of C language #define preprocessor statements. It is designed to configure the C language implementation of hardware drivers.
 
-The `defines` object is explained more fully in the [defines document](../tools/defines.md).
+The `defines` object is explained more fully in the [defines document](tools/defines.md).
 
 ***
 
@@ -134,7 +134,7 @@ The `defines` object is explained more fully in the [defines document](../tools/
 
 The `config` object contains values that are accessible to the application's scripts.
 
-It is commonly used in the manifests of target platforms to specify the screen driver, touch driver, and default rotation. These properties are used by [Commodetto](../commodetto/commodetto.md) and [Piu](../piu/piu.md) setup modules.
+It is commonly used in the manifests of target platforms to specify the screen driver, touch driver, and default rotation. These properties are used by [Commodetto](commodetto/commodetto.md) and [Piu](piu/piu.md) setup modules.
 
 ```
 "config": {
@@ -164,7 +164,7 @@ The `config` object in the `mc/config` module is frozen, preventing its values f
 <a id="strip"></a>
 ### `strip`
 
-Most applications do not use all built-in JavaScript language features. To save ROM, the XS linker can strip unused native code from the XS engine itself. For more information about the strip feature, see the **Strip unused features** section of the [XS Differences](../xs/XS%20Differences.md) document.
+Most applications do not use all built-in JavaScript language features. To save ROM, the XS linker can strip unused native code from the XS engine itself. For more information about the strip feature, see the **Strip unused features** section of the [XS Differences](xs/XS%20Differences.md) document.
 
 The `strip` object in a manifest is a string or array that specifies which built-in objects and functions of the JavaScript language can/should be removed by the XS linker.
 
@@ -247,7 +247,7 @@ import ASSETS from "newNameForAssets"
 <a id="preload"></a>
 ### `preload`
 
-Preloading of modules is a unique feature of the XS JavaScript engine. Preloading executes parts of a JavaScript application during the the build process, before the application is downloaded to the target device. For more information about preloading, see the [preloading document](../xs/preload.md).
+Preloading of modules is a unique feature of the XS JavaScript engine. Preloading executes parts of a JavaScript application during the the build process, before the application is downloaded to the target device. For more information about preloading, see the [preloading document](xs/preload.md).
 
 The `preload` array in a manifest lists the modules preloaded in the read-only XS virtual machine that will be cloned to run the app. It is an array of module names, not paths to modules.
 
@@ -301,11 +301,11 @@ The Moddable SDK uses bitmap fonts. The metrics are provided by binary FNT files
 },
 ```
 
-For more information about creating fonts for Moddable applications, see the [font documentation](../commodetto/Creating%20fonts%20for%20Moddable%20applications.md).
+For more information about creating fonts for Moddable applications, see the [font documentation](commodetto/Creating%20fonts%20for%20Moddable%20applications.md).
 
 #### Audio
 
-The [`AudioOut` module](../pins/audioout.md) requires that audio be provided either as a MAUD audio resource or as raw audio samples. WAV files are automatically converted to the `maud` format using the `wav2maud` tool of the Moddable SDK, and compressed using IMA ADCPM.
+The [`AudioOut` module](pins/audioout.md) requires that audio be provided either as a MAUD audio resource or as raw audio samples. WAV files are automatically converted to the `maud` format using the `wav2maud` tool of the Moddable SDK, and compressed using IMA ADCPM.
 
 Wave audio files should be included in the `*` array.
 
