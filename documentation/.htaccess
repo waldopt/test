@@ -1,0 +1,8 @@
+Options +FollowSymLinks
+RewriteEngine On
+AuthType Basic
+AuthName "My Protected Area"
+AuthUserFile /Library/Server/Web/Data/Sites/staging.moddable.tech/.htpasswd
+Require valid-user
+Redirect 301 /examples https://github.com/Moddable-OpenSource/moddable/tree/public/examples
+Redirect 301 /modules https://github.com/Moddable-OpenSource/moddable/tree/public/modules
