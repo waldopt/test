@@ -49,7 +49,7 @@ A few notes:
 
 - The first app will take some time to build since all the ESP and XS libraries need to be compiled too. Such libraries are shared, so subsequent apps will build faster.
 - When running a debug build, **xsbug** needs to be running on your computer for the launch to be successful.
-- See the [Manifest](./manifest.md) document for explanations about manifests.
+- See the [Manifest](manifest.md) document for explanations about manifests.
 
 ### Arguments
 
