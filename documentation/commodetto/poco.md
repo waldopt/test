@@ -767,7 +767,7 @@ The following fields are available to read from the `PocoRecord` structure betwe
 
 ##### `PocoCoordinate`
 
-`PocoCoordinate` is a signed integer value. When used in Commodetto, it is aliased to `CommodettoCoordinate`. See the description of `CommodettoCoordinate` in the [Commodetto documentation](./commodetto.md) for additional information.
+`PocoCoordinate` is a signed integer value. When used in Commodetto, it is aliased to `CommodettoCoordinate`. See the description of `CommodettoCoordinate` in the [Commodetto documentation](commodetto.md) for additional information.
 
 ***
 

@@ -756,7 +756,7 @@ Commodetto extends the BMFont format with RLE compressed glyphs. Glyphs are indi
 <a id="rendering"></a>
 ## Rendering
 
-Commodetto is designed to support multiple rendering engines. The initial engine is [Poco](./poco.md), a small bitmap-based scanline renderer. A renderer knows how to draw pixels and relies on a `PixelsOut` instance to output those pixels, whether to a display, an offscreen buffer, or a file.
+Commodetto is designed to support multiple rendering engines. The initial engine is [Poco](poco.md), a small bitmap-based scanline renderer. A renderer knows how to draw pixels and relies on a `PixelsOut` instance to output those pixels, whether to a display, an offscreen buffer, or a file.
 
 When a renderer is created, it is bound to an output. For example, to render to a BMP file:
 
